@@ -8,7 +8,6 @@ class Solution:
                 while stack and nums[stack[-1]] < nums[i]:
                     res[stack.pop()] = nums[i]
             stack.append(i)
-        
         if stack:
             i = 0
             while i < len(nums):

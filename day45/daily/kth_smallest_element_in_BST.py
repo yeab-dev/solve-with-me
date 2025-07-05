@@ -22,5 +22,3 @@ class Solution:
 
         inorder(root)
         return self.result
-
-tn = TreeNode(3, TreeNode(1, right=TreeNode(2)), TreeNode(4))

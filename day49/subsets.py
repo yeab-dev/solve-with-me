@@ -15,5 +15,3 @@ class Solution:
             dfs(i+1)
         dfs(0)
         return res
-
-print(Solution().subsets([1,2,3]))

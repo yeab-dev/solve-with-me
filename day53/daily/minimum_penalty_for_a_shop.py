@@ -22,5 +22,3 @@ class Solution:
                 smallest = i
                 minimum = prefix_n[i] + prefix_y[i]
         return smallest
-
-print(Solution().bestClosingTime("YYYY"))
